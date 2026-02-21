@@ -1,5 +1,6 @@
-## Hi there 👋
-
+👋 Hi, I’m Kshithish
+👀 I’m interested in coding and I'm currently exploring various domains of Computer Science.
+🌱 I’m currently learning Cyber Security
 <!--
 **Kshithish/Kshithish** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
