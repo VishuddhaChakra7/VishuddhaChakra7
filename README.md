@@ -1,10 +1,6 @@
 👋 Hi, I’m Kshithish
 
 🌱 I’m currently learning Cyber Security
-
-<div>
-  <img src="https://komarev.com/ghpvc/?username=VishuddhaChakra7&style=flat&color=39ff14&label=profile+views" />
-</div>
   
 <!--
 **Kshithish/Kshithish** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
