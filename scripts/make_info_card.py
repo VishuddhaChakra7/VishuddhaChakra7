@@ -39,8 +39,8 @@ ACCENT = "#22d3ee"
 # ("gap",)                     -> vertical space
 ROWS = [
     ("host",),
-    ("kv", "Now", "Software Engineer @ Dock.us"),
-    ("kv", "Prev", "Founding Engineer @ Turgon AI"),
+    ("kv", "Now", "Student @ CMR Institute of Technology"),
+    '''("kv", "Prev", "Founding Engineer @ Turgon AI"),
     ("kv", "Also", "SDE + Instructor @ AccioJob (YC'21)"),
     ("kv", "Edu", "B.Tech CS, IIIT Delhi '24"),
     ("gap",),
@@ -52,7 +52,7 @@ ROWS = [
     ("gap",),
     ("sec", "Highlights"),
     ("bul", "Taught 100,000+ developers to code"),
-    ("bul", "2 books · 100k+ podcast streams"),
+    ("bul", "2 books · 100k+ podcast streams"),'''
 ]
 
 
