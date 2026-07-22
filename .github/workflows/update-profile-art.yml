@@ -21,13 +21,27 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: pip install -r scripts/requirements.txt
+      - name: Install CI dependencies
+        run: pip install -r scripts/requirements-ci.txt
 
-      - run: python scripts/fetch_contributions.py
+      - name: Fetch contributions data
+        run: python scripts/fetch_contributions.py
 
-      - run: python scripts/render_heatmap_svg.py
+      - name: Render contribution heatmap SVG
+        run: python scripts/render_heatmap_svg.py
+
+      - name: Generate info card SVG
+        run: python scripts/make_info_card.py
+
+      - name: Generate ASCII portrait SVG
+        run: |
+          if [ -f source-prepped.png ]; then
+            python scripts/make_ascii_svg.py
+          else
+            echo "source-prepped.png not found – skipping ASCII portrait generation"
+          fi
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg"
+          file_pattern: "data/contributions.json contrib-heatmap.svg info-card.svg avi-ascii.svg"
