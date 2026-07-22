@@ -3,3 +3,7 @@ venv/
 
 # Python cache
 __pycache__/
+
+# Source photos (processed into source-prepped.png locally, not committed)
+source-photo.png
+source-photo.jpg
