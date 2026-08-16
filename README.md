@@ -5,7 +5,7 @@
 
   <br><br>
 
-  <h3><code>VishuddhaChakra7@github ~ $ whoami</code></h3>
+  <!--<h3><code>VishuddhaChakra7@github ~ $ whoami</code></h3>-->
 
   <table>
     <tr>
